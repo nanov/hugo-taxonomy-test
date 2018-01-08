@@ -1,0 +1,5 @@
+hello list
+{{ .Pages }}
+{{ range .Pages }}
+    <a href="{{ .RelPermalink }}">[P] {{ .Title }}</a>
+{{ end }}

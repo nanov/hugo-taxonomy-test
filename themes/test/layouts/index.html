@@ -1,0 +1,4 @@
+hello index
+{{ range .Site.AllPages }}
+    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+{{ end }}
